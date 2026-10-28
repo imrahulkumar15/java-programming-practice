@@ -23,7 +23,7 @@ public class Q20_Electricity_Bill_Calculate {
                     bills =(100*2) + (100*3) - ((a-200)*5);
                     System.out.println("Electricity bills: " + bills); 
                 }
-                    
+                    sc.close();
     }
     
 }
