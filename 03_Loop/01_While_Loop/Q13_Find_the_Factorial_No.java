@@ -8,8 +8,20 @@ public class Q13_Find_the_Factorial_No {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter a digit: ");
-        int a = sc.nextInt();
+        System.out.print("Enter a non-negative integer: ");
+        int n = sc.nextInt();
+
+        long factorial = 1;
+        int i = 1;
+
+        while (i <= n) {
+            factorial = factorial * i;
+            i++;
+        }
+
+        System.out.println("Factorial of " + n + " is: " + factorial);
+
+        sc.close();
 
         
     }
