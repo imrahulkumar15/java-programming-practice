@@ -11,10 +11,15 @@ public class Q17_ReverseOfNumber {
         System.out.println("Enter a Number: ");
         int Num1 = sc.nextInt();
 
-        int Reverse = 0;
-        while (Num1>0) {
-            System.out.println(Reverse);
-           
+        int digit;
+        int Reverse =0;
+    while (Num1>0) {
+        digit =Num1%10;
+        Reverse = Reverse*10 + digit;
+        Num1 = Num1 / 10;
+    }
+    System.out.println("Reverse No: " +Reverse);
+    sc.close();
         }
     }
-}
+
