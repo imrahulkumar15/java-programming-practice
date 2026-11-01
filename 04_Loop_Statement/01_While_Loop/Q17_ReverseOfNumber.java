@@ -13,7 +13,8 @@ public class Q17_ReverseOfNumber {
 
         int Reverse = 0;
         while (Num1>0) {
-            int 
+            System.out.println(Reverse);
+           
         }
     }
 }

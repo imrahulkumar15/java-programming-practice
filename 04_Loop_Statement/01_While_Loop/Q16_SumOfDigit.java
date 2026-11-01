@@ -12,12 +12,11 @@ public class Q16_SumOfDigit {
         System.out.print("Enter a digits: ");
         int Num1 = sc.nextInt();
 
-        int Sum = 0;
-      while (Num1>0) {
-        int digits = Num1%10;
-        Sum =Sum + digits;
-        Sum =Num1/10;
-      }
-      System.out.println("Sum of digit: " + Sum);
-    }
+        int i=1;
+        while (i<=Num1) {
+          System.out.println(i);
+        }
+        sc.close();
+    } 
+
 }
